@@ -632,12 +632,19 @@ button {
     position: relative;
     width: 100px;
     height: 100px;
-    background-color: navy;
+    background-color: white;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    &:hover{
+        background-color: navy;
+        h3{
+            color: white;
+        }
+    }
+   
 }
 
 .key1,
@@ -648,6 +655,7 @@ button {
 .key3 {
     margin-top: 20px;
     margin-left: -20px;
+    
 }
 
 .key2 {
@@ -677,9 +685,10 @@ button {
 
 
 .key h3 {
-    color: white;
+    color: black;
     text-align: center;
     font-size: 10px;
+
 }
 
 .info1 {
